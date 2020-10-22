@@ -1,0 +1,455 @@
+a:hover {
+  text-decoration: none;
+}
+
+.btn-started {
+  z-index: 1;
+  padding: 15px 25px;
+  border-radius: 0;
+  border: 2px solid #E9204F;
+  color: white;
+  position: relative;
+}
+
+.btn-started::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: #E9204F;
+  -webkit-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+  z-index: -1;
+}
+
+.btn-started:hover {
+  color: white;
+}
+
+.btn-started:hover::before {
+  width: 100%;
+}
+
+#header {
+  padding: 15px 0;
+  background-color: black;
+  color: white;
+  z-index: 15;
+}
+
+#header .menu ul li {
+  padding: 15px 0;
+}
+
+#header .menu ul li a {
+  padding: 10px;
+  color: white;
+  position: relative;
+}
+
+#header .menu ul li a::after {
+  content: '';
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  height: 2px;
+  width: 0px;
+  background: crimson;
+  -webkit-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+
+#header .menu ul li a:hover::after {
+  width: 20px;
+}
+
+#Getting {
+  padding-top: 120px 0;
+  background: url(../photo/hero_02.jpg);
+  background-size: 640px auto;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: 70% 20px;
+}
+
+#Getting .my-5 {
+  margin-top: 0 !important;
+}
+
+#Getting .getting-item {
+  padding: 60px 40px;
+  background: #1b1b1b;
+  margin-top: 6em;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#Getting .getting-item:hover {
+  background-color: #E9204F;
+}
+
+#Getting .getting-item:hover i {
+  color: white;
+}
+
+#Getting .getting-item i {
+  font-size: 48px;
+  color: #e9204f;
+  margin-bottom: 60px;
+}
+
+#Getting .getting-item h3 {
+  font-family: "AvantGarde Bold", Sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4em;
+  margin: 0px 0px 10px 0px;
+}
+
+#Getting .getting-text h1 {
+  color: #ffffff;
+  font-size: 78px;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: -1.9px;
+}
+
+.getting-item:hover {
+  background-color: #E9204F;
+}
+
+@media (max-width: 768) {
+  body {
+    font-size: 1em;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+.two h4 {
+  color: #e9204f;
+  font-family: "Trade Gothic", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 17px;
+  margin: 50px 0;
+}
+
+.two h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.services .service-item {
+  padding: 40px 30px 40px 30px;
+  background: #f3f3f3;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.services .service-item > i {
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+
+.services .service-item:hover {
+  background-color: #E9204F;
+}
+
+.services .service-item:hover > i {
+  -webkit-transform: translateX(15px);
+          transform: translateX(15px);
+  color: white;
+}
+
+.services .service-item:hover .ser-left h3 {
+  -webkit-transform: translateX(25px);
+          transform: translateX(25px);
+  color: white;
+}
+
+.services .service-item:hover .ser-left i {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  margin-left: -15px;
+  color: #ddd;
+  visibility: visible;
+}
+
+.services .service-item .ser-left h3 {
+  margin: 0;
+  color: #101010;
+  font-family: "AvantGarde Bold", Sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 24px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.services .service-item .ser-left i {
+  opacity: 0;
+  font-size: 3em;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  visibility: hidden;
+}
+
+.three h4 {
+  color: #e9204f;
+  font-family: "Trade Gothic", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 17px;
+  margin: 50px 0;
+}
+
+.three h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.bts .btn-middle2 {
+  z-index: 2;
+  padding: 15px 32px 15px 32px;
+  border-radius: 0;
+  border: 1px solid #E9204F;
+  color: black;
+  position: relative;
+}
+
+.bts .btn-middle2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: #E9204F;
+  -webkit-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+  z-index: -2;
+}
+
+.bts .btn-middle2:hover {
+  color: white;
+}
+
+.bts .btn-middle2:hover::before {
+  width: 100%;
+}
+
+.works .work-item {
+  height: 350px;
+  position: relative;
+}
+
+.works .work-item::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #000000bf;
+  opacity: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.works .work-item img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: middle;
+}
+
+.works .work-item img:hover img {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.works .work-item img:hover .work-item {
+  opacity: 1;
+}
+
+.works .work-item img:hover::after {
+  opacity: 1;
+}
+
+.works .work-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #ffffff;
+  opacity: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  z-index: 5;
+}
+
+.my p {
+  color: #747474;
+  font-family: "Trade Gothic", Sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.my h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.04px;
+}
+
+.client h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.client h4 {
+  color: #e9204f;
+  font-family: "Trade Gothic", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 17px;
+}
+
+.client p {
+  color: #747474;
+  font-family: "Trade Gothic", Sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.latests h4 {
+  color: #e9204f;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 17px;
+}
+
+.latests h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.box3 image {
+  height: 350px;
+  position: relative;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: middle;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.box3:hover img {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.box3::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #000000bf;
+  opacity: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#footer {
+  height: 30vh;
+  color: white;
+  text-align: center;
+  background-color: #1B1B1B;
+  margin-top: 50px;
+}
+
+#footer .icone i {
+  background-color: rgba(173, 173, 173, 0);
+  font-size: 20px;
+  padding: 0.7em;
+  border-style: solid !important;
+  border-width: 2px 2px 2px 2px;
+  border-color: #e9204f;
+  border-radius: 100px;
+}
+
+#footer .icone:hover i {
+  color: #e9204f;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+#footer a.btn-last {
+  z-index: 1;
+  padding: 15px 25px;
+  border-radius: 0;
+  border: 2px solid #E9204F;
+  color: white;
+  position: relative;
+}
+
+#footer a.btn-last::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: #E9204F;
+  -webkit-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+  z-index: -1;
+}
+
+#footer a.btn-last:hover {
+  color: white;
+}
+
+#footer a.btn-last:hover::before {
+  width: 100%;
+}
+
+.footer2 {
+  background-color: #161616;
+}
+
+.footer2 .footer-middle {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
